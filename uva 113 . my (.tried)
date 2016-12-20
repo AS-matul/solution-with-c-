@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cstdio>
+#include <cmath>
+using namespace std;
+int main()
+{
+    long double p,n,res;
+    while (cin>>n && n!='\0')
+    {
+        cin>>p;
+        res=pow(p,(1/n));
+        cout<<res<<endl;
+    }
+    return 0;
+}
